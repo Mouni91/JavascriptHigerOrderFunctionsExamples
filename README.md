@@ -8,10 +8,12 @@ Few higher order functions in Javascript are map, filter, reduce, forEach.
     array.map(function(currentValue, index, arr), thisValue)
  
 >filter: creates a new array filled with elements that pass a test provided by a function. The filter() method does not execute the function for empty elements. The                  filter() method does not change the original array.
+ 
   Syntax:
     array.filter(function(currentValue, index, arr), thisValue)
     
 >reduce: executes a reducer function for array element. The reduce() method returns a single value: the function's accumulated result. The reduce() method                            does not execute the function for empty array elements. The reduce() method does not change the original array.
+ 
   Syntax:
     array.reduce(function(total, currentValue, currentIndex, arr), initialValue)
 
@@ -19,6 +21,7 @@ Few higher order functions in Javascript are map, filter, reduce, forEach.
             Current Value (required): The value of the current array element
             Index (optional): The index number of the current element
             Array (optional): The array object the current element belongs to
+  
   Syntax:
     array.forEach(function(currentValue, index, arr), thisValue)
 
