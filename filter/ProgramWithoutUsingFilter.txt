@@ -1,0 +1,16 @@
+<script>
+	// JavaScript to illustrate without filter() method
+	
+	function func() {
+		var filtered = [24, 33, 16, 40];
+
+		for (i=0; i<filtered.length;i++){
+			if (filtered[i] > 18){
+				document.write(filtered);
+			}
+		}
+	}
+	func();
+	//Expected Output: [24,33,40]
+
+</script>					

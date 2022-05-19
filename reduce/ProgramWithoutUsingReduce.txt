@@ -1,0 +1,12 @@
+<script>
+		//Subtract the numbers in the array, starting from the left
+
+		const numbers = [175, 50, 25];
+		total = numbers[0];
+		for (i=; i<numbers.length;i++){
+			total = total - numbers[i];
+		}
+		console.log(total);
+
+
+</script>

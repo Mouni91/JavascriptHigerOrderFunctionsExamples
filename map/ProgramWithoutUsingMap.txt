@@ -1,0 +1,18 @@
+<script>
+		var arr = [4, 5, 10, 3, 8, 6];
+		var result = [];
+		let i;
+
+		//square function returns square of a number
+		const square = function(num){
+			return num*num;
+		}
+
+		for(i=0; i< arr.length; i++){
+			result.push(square(arr[i]));
+		}
+
+		console.log(result);
+		//Expected output: [16 ,25, 100, 9, 64, 36]
+
+</script>

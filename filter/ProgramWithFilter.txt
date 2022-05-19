@@ -1,0 +1,14 @@
+<script>
+	// JavaScript to illustrate filter() method
+	function canVote(age) {
+		return age >= 18;
+	}
+
+	function func() {
+		var filtered = [24, 33, 16, 40].filter(canVote);
+		document.write(filtered);
+	}
+	func();
+	//Expected Output: [24,33,40]
+
+</script>					

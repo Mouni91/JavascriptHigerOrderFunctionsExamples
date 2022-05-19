@@ -1,0 +1,15 @@
+<script>
+	<!-- Script to use Array map() Method -->
+	
+		var el = document.getElementById('root');
+		var arr = [4, 5, 10, 3, 8, 6];
+		
+		var newArr = arr.map(function(val, index){
+			return {key:index, value:val*val};
+		})
+		
+		console.log(newArr)
+		
+		el.innerHTML = JSON.stringify(newArr);
+		//Expected output: [16 ,25, 100, 9, 64, 36]
+</script>
