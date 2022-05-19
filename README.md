@@ -1,4 +1,4 @@
-# JavascriptHigerOrderFunctionsExamples
+# JavascriptHigherOrderFunctionsExamples
 
 Few higher order functions in Javascript are map, filter, reduce, forEach.
 
